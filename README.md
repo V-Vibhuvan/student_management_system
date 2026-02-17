@@ -150,3 +150,19 @@ The application uses **MongoDB Atlas** as a cloud database for scalability and a
 - Separated concerns using MVC pattern  
 ---
 
+## API Testing
+
+**Use Postman or Hoppscotch.**
+
+Auth:
+POST /api/auth/register
+POST /api/auth/login
+
+Students:
+POST /api/students
+GET /api/students
+GET /api/students/:id
+PUT /api/students/:id
+DELETE /api/students/:id
+
+
